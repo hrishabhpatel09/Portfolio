@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import logo from '../../public/nodejs-icon.svg'
+import logo from '../assets/nodejs-icon.svg'
 function Navbar() {
   return (
     <div className='h-12 shadow-md flex justify-between items-center'>
