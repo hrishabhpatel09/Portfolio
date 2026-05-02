@@ -5,6 +5,7 @@ import ErrorPage from "./ErrorPage";
 import Home from "./Home";
 import Skill from './Skill'
 import Work from './Work'
+import Projects from './Projects'
 
 export{
     About,
@@ -13,5 +14,6 @@ export{
     ErrorPage,
     Home,
     Skill,
-    Work
+    Work,
+    Projects
 }

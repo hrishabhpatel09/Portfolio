@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import ContentUnavailable from '../components/ContentUnavailable';
 
 function Skill() {
-  return (
-    <div>
-      This is Skil Page
-    </div>
-  )
+  return <ContentUnavailable pageName="Skills" />;
 }
 
-export default Skill
+export default Skill;

@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import ContentUnavailable from '../components/ContentUnavailable';
 
 function Education() {
-  return (
-    <div>
-      Education
-    </div>
-  )
+  return <ContentUnavailable pageName="Education" />;
 }
 
-export default Education
+export default Education;

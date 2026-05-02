@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, createRoutesFromChildren ,Route,RouterProvider, Routes} from 'react-router-dom'
-import {Education,About,Home,ErrorPage,Contact,Skill,Work} from './pages/index.js'
+import {Education,About,Home,ErrorPage,Contact,Skill,Work, Projects} from './pages/index.js'
 
 const router = createBrowserRouter(
   createRoutesFromChildren(
@@ -14,6 +14,7 @@ const router = createBrowserRouter(
            <Route path='/contact' Component={Contact} errorElement={ErrorPage}></Route>
            <Route path='/skill' Component={Skill} errorElement={ErrorPage}></Route>
            <Route path='/work' Component={Work} errorElement={ErrorPage}></Route>
+           <Route path='/projects' Component={Projects} errorElement={ErrorPage}></Route>
         </Route>
   )
 )

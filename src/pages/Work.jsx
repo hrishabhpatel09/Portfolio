@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import ContentUnavailable from '../components/ContentUnavailable';
 
 function Work() {
-  return (
-    <div>
-      W
-    </div>
-  )
+  return <ContentUnavailable pageName="Work" />;
 }
 
-export default Work
+export default Work;

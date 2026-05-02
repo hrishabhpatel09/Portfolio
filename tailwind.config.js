@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poetsen: ['"Poetsen One"', 'sans-serif'],
+      },
     },
   },
   darkMode:'class',
